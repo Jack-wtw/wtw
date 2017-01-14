@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="icon" href="../../../Desktop/duokan%202/image/icon.png">
+  <link rel="stylesheet" href="../../../Desktop/duokan%202/css/bootstrap.css">
+  <link rel="stylesheet" href="../../../Desktop/duokan%202/css/duokan.css">
+  <script type="text/javascript" src="../../../Desktop/duokan%202/js/jquery-3.1.0.js"></script>
+  <script type="text/javascript" src="../../../Desktop/duokan%202/js/bootstrap.js"></script>
+
+  <style type="text/css">
+      /*购物车导航*/
+      .shopping-nav{
+        font-size: 16px;
+      }
+
+      /*购物车内容*/
+      .shopping-content{
+        width: 950px;
+        margin:0 auto;
+        margin-top: 20px;
+      }
+      .shopping-content .group1{
+        float: left;
+      }
+      .shopping-content .group2{
+        float: right;
+      }
+  </style>
+</head>
+
+
+<body>
+      <!-- 1>头部分 -->
+      <div class="headbox">
+            <div class="navbox">
+                     <!-- 左边导航 (省略)-->
+                     <div class="nav-left">
+                           <ul class="lt-list">
+                           </ul>
+                     </div>
+                     <!-- 右边导航 -->
+                     <div class="nav-right">
+                            <ul class="rt-list">
+                                 <li><a href="登录与注册.html">登录</a><span class='part'>/</span><a href="登录与注册.html">注册</a></li>
+                                 <li class="part">|</li>
+                                 <li><a href="#">购物车</a></li>
+                                 <li class="part">|</li>
+                                 <li><a href="个人中心.html">个人中心</a></li>
+                            </ul>
+                     </div>
+      </div>
+      <!-- 2>主体部分 -->
+      <div class="mbody">
+            <!-- 主体头部logo/搜索部分 -->
+            <div class="body-top">
+                 <div class="logo">
+                        <img src="../../../Desktop/duokan%202/image/logo.png" alt="">
+                 </div>
+
+                 <div class="serch">
+                         <input type="text" class="txt" placeholder="请搜索书名/作者......">
+                         <input type="button" class="serch-btn">
+                 </div>
+            </div>
+
+            <!-- 主体导航部分 -->
+            <div class="main-nav">
+               <ul class="center-nav">
+                   <li><a href="../../../Desktop/duokan%202/duokan.html">首页</a></li>
+                   <li><a href="#">榜单</a></li>
+                   <li><a href="#">书评</a></li>
+                   <li><a href="#">精品.免费</a></li>
+                   <li><a href="#">分类</a></li>
+                   <li><a href="#">客户端</a></li>
+                   <li><a href="#">论坛</a></li>
+               </ul>
+            </div>
+
+            <!-- 主体内容部分 -->
+            <div class="body-content">
+                 <div class="shopping-nav">
+                         <span>当前位置：首页</span>
+                         <span style="color:gray;">&nbsp;&gt;&nbsp;购物车</span>
+                 </div>
+                   <!-- 右边购物车状态 -->
+                 <div class="shopping-content">
+
+                     <div class="panel panel-warning">
+                          <div class="panel-heading">
+                            <h3 class="panel-title">购物车状态</h3>
+                          </div>
+                          <!-- 购物车详情 -->
+                          <div class="panel-body">
+                              <!-- 第一个购物车详情 -->
+                                <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                        <h3 class="panel-title">中信数电图书专营店</h3>
+                                      </div>
+                                      <div class="panel-body">
+                                             <div class="col-md-1">
+                                                  <img src="../../../Desktop/duokan%202/image/santi.jpg" alt="" style="width:65px">
+                                             </div>
+
+                                             <div class="col-md-3">
+                                                  <span style="font-size:16px; font-weight:bold;">三体(全三册)</span><br>
+                                                  <span>刘慈欣</span>
+                                                  <p style="margin-top:20px; color:gray;">￥9.00</p>
+                                             </div>
+
+                                             <div class="col-md-2"></div>
+
+                                             <div class="col-md-3">
+                                                    <!-- 使用：输入框组 -->
+                                                       <span class="group1" style="font-size:16px;line-height:40px;">总件数:</span>
+                                                       <div class="input-group group2" style="width:100px;">
+                                                            <span class="input-group-btn">
+                                                                <button class="btn btn-default" type="button">+</button>
+                                                            </span>
+                                                            <input type="text" class="form-control" value="1">
+                                                            <span class="input-group-btn">
+                                                                <button class="btn btn-default" type="button">-</button>
+                                                            </span>
+                                                      </div>
+                                                      <p style="margin-top:60px; font-size:16px;">总额:9.00</p>
+                                             </div>
+
+                                             <div class="col-md-2">
+                                               <button class="btn btn-info">立即支付</button>
+                                             </div>
+
+                                              <div class="col-md-1">
+                                                      <span class="glyphicon glyphicon-trash"></span>
+                                                </div>
+                                         </div>
+                                </div>
+
+                                 <!-- 第二个购物车详情 -->
+                                <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                        <h3 class="panel-title">新华文轩网络书店</h3>
+                                      </div>
+                                      <div class="panel-body">
+                                             <div class="col-md-1">
+                                                  <img src="../../../Desktop/duokan%202/image/dssd.jpg" alt="" style="width:65px">
+                                             </div>
+
+                                             <div class="col-md-3">
+                                                  <span style="font-size:16px; font-weight:bold;">岛上书店</span><br>
+                                                  <span>【美】加布瑞埃拉·泽文</span>
+                                                  <p style="margin-top:20px; color:gray;">￥9.99</p>
+                                             </div>
+
+                                             <div class="col-md-2"></div>
+
+                                             <div class="col-md-3">
+                                                    <!-- 使用：输入框组 -->
+                                                       <span class="group1" style="font-size:16px;line-height:40px;">总件数:</span>
+                                                       <div class="input-group group2" style="width:100px;">
+                                                            <span class="input-group-btn">
+                                                                <button class="btn btn-default" type="button">+</button>
+                                                            </span>
+                                                            <input type="text" class="form-control" value="1">
+                                                            <span class="input-group-btn">
+                                                                <button class="btn btn-default" type="button">-</button>
+                                                            </span>
+                                                      </div>
+                                                      <p style="margin-top:60px; font-size:16px;">总额:9.99</p>
+                                             </div>
+
+                                             <div class="col-md-2">
+                                               <button class="btn btn-info">立即支付</button>
+                                             </div>
+
+                                              <div class="col-md-1">
+                                                      <span class="glyphicon glyphicon-trash"></span>
+                                                </div>
+                                         </div>
+                                </div>
+
+                                <!-- 第三个购物车详情 -->
+                                <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                        <h3 class="panel-title">琴雨轩书店</h3>
+                                      </div>
+                                      <div class="panel-body">
+                                           <!-- 这家店铺第一件商品 -->
+                                             <div class="col-md-1">
+                                                  <img src="../../../Desktop/duokan%202/image/gmmt.jpg" alt="" style="width:65px">
+                                             </div>
+
+                                             <div class="col-md-3">
+                                                  <span style="font-size:16px; font-weight:bold;">乖，摸摸头</span><br>
+                                                  <span>大冰</span>
+                                                  <p style="margin-top:20px; color:gray;">￥4.99</p>
+                                             </div>
+
+                                             <div class="col-md-2"></div>
+
+                                             <div class="col-md-3">
+                                                    <!-- 使用：输入框组 -->
+                                                       <span class="group1" style="font-size:16px;line-height:40px;">总件数:</span>
+                                                       <div class="input-group group2" style="width:100px;">
+                                                            <span class="input-group-btn">
+                                                                <button class="btn btn-default" type="button">+</button>
+                                                            </span>
+                                                            <input type="text" class="form-control" value="1">
+                                                            <span class="input-group-btn">
+                                                                <button class="btn btn-default" type="button">-</button>
+                                                            </span>
+                                                      </div>
+                                                      <p style="margin-top:60px; font-size:16px;">总额:4.99</p>
+                                             </div>
+
+                                             <div class="col-md-2">
+                                                          <p style="border-bottom:1px solid #dbdbdb;">总计:14.98</p>
+                                                            <button class="btn btn-info">立即支付</button>
+                                             </div>
+
+                                              <div class="col-md-1">
+                                                      <span class="glyphicon glyphicon-trash"></span>
+                                                </div>
+                                         </div>
+
+                                         <!-- 第二件商品 -->
+                                          <!-- 运用一个列表组:注意要给定一个高 -->
+                                           <ul class="list-group" style="height:200px;">
+                                             <li class="list-group-item">
+                                                   <div class="col-md-1">
+                                                         <img src="../../../Desktop/duokan%202/image/menu5.jpg" alt="" style="width:65px">
+                                                   </div>
+
+                                                   <div class="col-md-3">
+                                                        <span style="font-size:16px; font-weight:bold;">彷惶</span><br>
+                                                        <span>鲁迅</span>
+                                                        <p style="margin-top:20px; color:gray;">￥9.99</p>
+                                                   </div>
+
+                                                   <div class="col-md-2"></div>
+
+                                                   <div class="col-md-3">
+                                                          <!-- 使用：输入框组 -->
+                                                             <span class="group1" style="font-size:16px;line-height:40px;">总件数:</span>
+                                                             <div class="input-group group2" style="width:100px;">
+                                                                  <span class="input-group-btn">
+                                                                      <button class="btn btn-default" type="button">+</button>
+                                                                  </span>
+                                                                  <input type="text" class="form-control" value="1">
+                                                                  <span class="input-group-btn">
+                                                                      <button class="btn btn-default" type="button">-</button>
+                                                                  </span>
+                                                            </div>
+                                                            <p style="margin-top:60px; font-size:16px;">总额:9.99</p>
+                                                   </div>
+                                              </li>
+                                           </ul>
+                                </div>
+
+
+                          </div>
+                    </div>
+
+                 </div>
+            </div>
+            </div>
+
+      </div>
+
+
+</body>
+<script type="text/javascript" src="../../../Desktop/duokan%202/js/duokan.js"></script>
+</html>

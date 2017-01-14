@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>登录/注册</title>
+  <link rel="icon" href="../../../Desktop/duokan/image/icon.png">
+  <link rel="stylesheet" href="../../../Desktop/duokan/css/bootstrap.css">
+  <link rel="stylesheet" href="../../../Desktop/duokan/css/duokan.css">
+  <script type="text/javascript" src="../../../Desktop/duokan/js/jquery-3.1.0.js"></script>
+  <script type="text/javascript" src="../../../Desktop/duokan/js/bootstrap.js"></script>
+</head>
+<body>
+    <div class="panel panel-info" style="width:500px; margin:0 auto;">
+         <div class="panel-heading">
+           <h3 class="panel-title">登录/注册</h3>
+         </div>
+
+         <div class="panel-body">
+                <!-- .form-horizontal 水平表单-->
+               <form action="../../../Desktop/duokan/duokan.html" class="form-horizontal" role="form">
+                   <div class="form-group">
+                       <label for="" class="control-label col-md-3">帐号：</label>
+                       <div class="col-md-8">
+                          <input type="text" class="form-control" placeholder="请输入名字：" maxlength="11">
+                       </div>
+                     </div>
+
+                     <div class="form-group">
+                       <label for="" class="control-label col-md-3">密码：</label>
+                       <div class="col-md-8">
+                          <input type="text" class="form-control" placeholder="请输入密码：">
+                       </div>
+                     </div>
+
+                     <div class="form-group">
+                       <label for="" class="control-label col-md-3">验证码：</label>
+                       <div class="col-md-4">
+                          <input type="text" class="form-control" placeholder="输入验证码：">
+                       </div>
+                       <div>
+                          <input class="change-txt" type="button" value="AsIh" style="background-color:orange; color:white; width:80px; height:45px; font-size:16px;">
+                       </div>
+                     </div>
+
+                     <div class="form-group">
+                       <div class="col-md-2 col-md-offset-5">
+                          <input type="submit" class="btn btn-info" value="登录/注册">
+                       </div>
+
+                     </div>
+               </form>
+         </div>
+    </div>
+</body>
+<script type="text/javascript">
+     // 产生随机四位的验证码
+       var str="";
+     function rand(){
+         var arr=['1','r','Q','4','S','6','w','u','D','I','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p',
+                        'q','2','s','t','8','v','7','x','y','z','A','B','C','9','E','F','G','H','0','J','K','L','M','N','O','P','3','R',
+                        '5','T','U','V','W','X','Y','Z'];
+        var arrLen = arr.length;
+        var randNum = Math.floor(Math.random()*arrLen);
+        var s = arr[randNum]
+        str += s;
+        if (str.length == 4) {
+          return;
+        }
+        rand();
+     }
+
+     $(".change-txt").click(function(){
+         rand();
+         $(this).val(str);
+         str="";
+     });
+
+
+
+</script>
+</html>

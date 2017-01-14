@@ -1,0 +1,327 @@
+/* -------------- 初始化样式 --------------*/
+*{margin: 0; padding: 0;}
+
+body{background-color: rgb(247,246,244);}
+
+ul{list-style: none;}
+
+input{
+  outline-style: none;
+  border:0 none;
+}
+
+/*------------------- 1> 头部分 --------------*/
+.headbox{
+  height:  40px;
+  border-bottom: 1px solid #eae6e2;
+}
+/*导航部分*/
+.navbox{
+  width: 1190px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.navbox .nav-left{float: left;}
+
+.navbox .nav-right{
+  height: 40px;
+  line-height: 40px;
+  float: right;
+}
+.navbox .nav-right li{
+  float: left;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+}
+.part{
+  color: #dbd4d3;
+  width: 20px;
+}
+.navbox .nav-right li a{text-decoration: none;}
+.navbox .nav-right li a:link{color:black;}  /*链接未访问*/
+.navbox .nav-right li a:visited{color: black;} /*已访问*/
+.navbox .nav-right li a:hover{color:orange;} /*s*/
+.navbox .nav-right li a:active{color: black;} /*激活*/
+
+/*-------------------- 2>主体部分 ---------------- */
+.mbody{
+  width: 1190px;
+  margin:0 auto;
+}
+/*- 主体头部logo/搜索部分 --*/
+.body-top{
+  height: 90px;
+/*  line-height: 90px;*/
+margin-top: 30px;
+
+}
+.logo{float: left;}
+.serch{
+  width: 300px;
+  height: 39px;  /*35px加上上下边框4px*/
+  float:right;
+  border: 2px solid  #fa7a20;
+  border-radius: 5px;
+  padding: 0 2px;
+  background-color:white;
+  overflow: none;
+  margin-top: 5px;
+}
+
+.serch .txt{
+  height: 35px;
+  width: 255px;
+  float: left;
+}
+.serch .serch-btn{
+  height: 35px;
+  width: 35px;
+  float: right;
+  background:url('../image/serch.png');
+}
+
+/*-- 主体导航部分 --*/
+.main-nav{
+ height: 45px;
+ background-color: #fa7a20;
+}
+.main-nav .checked{
+  background-color: #f16300;
+}
+.main-nav .center-nav{
+  width: 600px;
+  margin:0 auto;
+}
+.main-nav .center-nav li{
+  float: left;
+  height: 45px;
+}
+.main-nav .center-nav li a{
+  height: 45px;
+  line-height: 45px;
+  padding: 0 20px;
+  font-size: 18px;
+  display: inline-block; /*  a标签是行内元素*/
+  color:white;
+  text-decoration: none;
+}
+
+.main-nav .center-nav li a:hover{background-color: #f16300; }
+
+
+/*----------------- 主体content-top部分 -------------*/
+.body-content .content-top{
+  height: 580px;   /*570+10(离底边框的距离）*/
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #fa7a20;
+
+}
+/*<!-- 左侧盒子:小说分类导航  -->*/
+.content-ltnav{
+  width: 240px;
+  height: 570px;
+  float: left;
+  background-color: black;
+}
+.content-ltnav li{
+  width:240px;
+  height: 55px;
+  line-height: 55px;
+  cursor: pointer;
+  position: relative;
+}
+.content-ltnav li a{
+  font-size: 16px;
+  color: white;
+  margin-left: 30px;
+  float: left;
+  text-decoration: none;
+}
+.content-ltnav li .menu-i{
+  float: right;
+}
+
+.menu-content{
+  width: 600px;
+  height: 570px;
+  position: absolute;
+  left: 240px;
+  display: none;
+  z-index:601;
+}
+.menu-content-ul{
+  width: 300px;
+  float: left;
+  height: 570px;
+  background-color: white;
+}
+.menu-content-ul li{
+  width:280px;
+  height: 55px;
+}
+.menu-content-ul li a{
+  float: left;
+  color:black;
+}
+.menu-content-ul li span{
+  width: 60px;
+  height: 30px;
+  float: right;
+  border:1px solid orange;
+  line-height: 30px;  /*注意:要设置的地方;*/
+  margin-top: 15px;
+  text-align: center;
+}
+.menu-content-ul li span:hover{background-color:  #fa7a20; color: white;}
+
+/* <!-- 右侧盒子:图片轮播/重磅推荐  -->*/
+/*图片轮播*/
+.content-pic{
+  width: 950px;  /*1190-240*/
+  float: right;
+  height: 570px;
+  z-index: 600;
+}
+.content-pic .carousel-inner .item img{
+  width: 950px;
+}
+.carousel-indicators .active{
+  background-color: #fa7a20;
+}
+/*重磅推荐~标题*/
+.choose-title{
+  width: 950px;
+  height: 30px;
+  line-height:30px;
+  color: #fa7a20;
+  padding-left: 20px;
+  border-bottom: solid 1px #eae6e2;
+  font-size: 16px;
+  font-weight: bold;
+}
+/*重磅推荐~图片内容*/
+.collection-img {
+  height:160px;
+  width: 950px;
+}
+.collection-img .collection{
+  width: 300px;
+  height:160px;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+}
+.collection-img .collection .left-img{
+  width: 97px;
+  height: 160px;
+  float: left;
+  font-size: 13px;
+}
+.collection-img .collection .left-img del{color: gray;}
+
+.collection-img .collection .right-button{
+  width:170px;
+  height: 160px;
+  float: right;
+}
+.collection-img .collection .right-button a{
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+.collection-img .collection .right-button a:hover{color: #fa7a20;}
+.collection-img .collection .right-button .information{
+  height:120px;
+}
+
+.collection-img .collection .right-button .btn{
+   padding: 0;
+}
+.collection-img .collection .right-button .btn button{
+   padding: 5px;
+}
+
+.collection-img .center, .collection-img .right{
+ border-left: 1px solid #eae6e2;
+ padding-left: 5px;
+}
+
+/*<!-- 活动快讯 -->*/
+.new-flash{
+  width: 940px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color: #fdf5e4;
+  border:1px solid #fa7a20;
+}
+.new-flash p{
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  color: orange;
+  margin-left: 20px;
+  font-size: 16px;
+  float: left;
+}
+.new-flash ul li{
+    float: left;
+    line-height: 30px;
+}
+
+/*--------------------- 主体banner部分 ------------------*/
+/*<!-- 左侧广告海报 -->*/
+.body-banner{
+  width: 1190px;
+  height: 400px;
+  margin-top: 10px;
+}
+.body-banner .poster{
+  width: 240px;
+  height: 400px;
+  float: left;
+}
+.body-banner .poster img{
+  width: 240px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+ /*<!-- 右侧书籍信息 -->*/
+.poster-content{
+  width: 950px;
+  height: 400px;
+  float: right;
+}
+
+/* <!-- 页码指示器 -->*/
+.page-number{
+  width: 1190px;
+  height: 100px;
+  margin-top: 20px;
+}
+.page-number button,.page-number .page-txt{
+  float: right;
+  margin-left: 10px;
+}
+.page-number .page-txt{
+  line-height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

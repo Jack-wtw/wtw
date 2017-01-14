@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="icon" href="../../../Desktop/duokan%202/image/icon.png">
+  <link rel="stylesheet" href="../../../Desktop/duokan%202/css/bootstrap.css">
+  <link rel="stylesheet" href="../../../Desktop/duokan%202/css/duokan.css">
+  <script type="text/javascript" src="../../../Desktop/duokan%202/js/jquery-3.1.0.js"></script>
+  <script type="text/javascript" src="../../../Desktop/duokan%202/js/bootstrap.js"></script>
+
+  <style type="text/css">
+      /*个人中心主体*/
+      .person-content{
+        width: 1190px;
+      }
+      /*左边导航*/
+      .person-content .person-left{
+        width: 240px;
+        float: left;
+      }
+      .person-content .person-left h3{ color: gray; }
+      .person-content .person-left a{
+        color: black;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+      }
+       .act{
+          background-color:#eeeeee;
+          border-right: 4px solid #fa7a20;
+       }
+       /*右边内容*/
+       .person-content .person-right{
+        width:950px;
+        float: right;
+        border-left: 1px solid #dbdbdb;
+       }
+       .person-title{
+        width: 935px;
+        margin-left: 10px;
+        margin-top: 30px;
+        border-bottom: 1px solid #dbdbdb;
+       }
+       .person-right-content{
+          padding-top: 10px;
+          padding-left: 10px;
+       }
+       .date,.dingdan{font-size: 14px;}
+       .dingdan{color: gray;}
+
+      /*页码指示器*/
+      .order-page-number{
+        width: 900px;
+        height: 60px;
+        margin-top: 20px;
+      }
+      .order-page-number button,.order-page-number .page-txt{
+        float: right;
+        margin-left: 10px;
+      }
+      .order-page-number .page-txt{
+        line-height: 35px;
+      }
+
+
+
+  </style>
+</head>
+
+
+<body>
+       <!-- 1>头部分 -->
+      <div class="headbox">
+            <div class="navbox">
+                     <!-- 左边导航 (省略)-->
+                     <div class="nav-left">
+                           <ul class="lt-list">
+                           </ul>
+                     </div>
+                     <!-- 右边导航 -->
+                     <div class="nav-right">
+                            <ul class="rt-list">
+                                 <li><a href="登录与注册.html">登录</a><span class='part'>/</span><a href="登录与注册.html">注册</a></li>
+                                 <li class="part">|</li>
+                                 <li><a href="购物车">购物车</a></li>
+                                 <li class="part">|</li>
+                                 <li><a href="../../../Desktop/duokan%202/个人中心.html">个人中心</a></li>
+                            </ul>
+                     </div>
+            </div>
+      </div>
+      <!-- 2>主体部分 -->
+      <div class="mbody">
+            <!-- 主体头部logo/搜索部分 -->
+            <div class="body-top">
+                 <div class="logo">
+                        <img src="../../../Desktop/duokan%202/image/logo.png" alt="">
+                 </div>
+
+                 <div class="serch">
+                         <input type="text" class="txt" placeholder="请搜索书名/作者......">
+                         <input type="button" class="serch-btn">
+                 </div>
+            </div>
+
+            <!-- 主体导航部分 -->
+            <div class="main-nav">
+               <ul class="center-nav">
+                   <li><a href="../../../Desktop/duokan%202/duokan.html">首页</a></li>
+                   <li><a href="#">榜单</a></li>
+                   <li><a href="#">书评</a></li>
+                   <li><a href="#">精品.免费</a></li>
+                   <li><a href="#">分类</a></li>
+                   <li><a href="#">客户端</a></li>
+                   <li><a href="#">论坛</a></li>
+               </ul>
+            </div>
+
+            <!-- 个人中心主体 -->
+            <div class="person-content">
+                     <!-- 左边导航 -->
+                     <div class="person-left">
+                           <!-- nav nav-pills nav-stacked:s垂直的胶囊式导航菜单 -->
+                           <ul class="nav nav-pills nav-stacked">
+                             <li><h3>个人中心</h3></li>
+                             <li ><a href="../../../Desktop/duokan%202/个人中心.html">帐号设置</a></li>
+                             <li class="act"><a href="#">订单</a></li>
+                             <li><a href="../../../Desktop/duokan%202/我的余额.html">我的余额</a></li>
+                           </ul>
+                     </div>
+
+                     <!-- 右边内容：我的订单 -->
+                     <div class="person-right" >
+                           <div class="person-title">
+                                <h4>我的订单</h4>
+                           </div>
+
+                           <div class="person-right-content">
+
+                                   <div class="panel panel-warning">
+                                        <div class="panel-heading">
+                                            <h3 class="panel-title">订单详情</h3>
+                                        </div>
+                                    <div class="panel-body">
+                                          <!-- 订单一 -->
+                                           <div class="panel panel-default">
+                                              <div class="panel-heading">
+                                                  <h3 class="panel-title">
+                                                    <p><span class="date">2016-09-06&nbsp;12:23:41&nbsp; &nbsp;订单号: </span><span class="dingdan">20266102675</span></p>
+                                                  </h3>
+                                              </div>
+                                              <div class="panel-body">
+                                                    <!-- 订单信息 -->
+                                                     <div class="order">
+                                                           <div class="col-md-1">
+                                                             <img src="../../../Desktop/duokan%202/image/santi.jpg" alt="" style="width:65px;">
+                                                           </div>
+
+                                                           <div class="col-md-3">
+                                                              <span style="font-size:16px; font-weight:bold;">三体(全三册)</span><br>
+                                                              <span>刘慈欣</span>
+                                                              <p style="margin-top:20px; color:gray;">￥9.00</p>
+                                                           </div>
+
+                                                           <div class="col-md-2"></div>
+
+                                                           <div class="col-md-1">
+                                                               <span>x2</span>
+                                                           </div>
+
+                                                           <div class="col-md-2">退/换货</div>
+
+                                                           <div class="col-md-2" style="text-align:center;">
+                                                              <p style="border-bottom:1px solid #dbdbdb;">总额：18.00</p>
+                                                              <p>在线支付</p>
+                                                           </div>
+
+                                                           <div class="col-md-1">
+                                                             <span class="glyphicon glyphicon-trash"></span>
+                                                           </div>
+                                                     </div>
+                                              </div>
+                                          </div>
+
+                                            <!-- 订单二 -->
+                                          <div class="panel panel-default">
+                                              <div class="panel-heading">
+                                                  <h3 class="panel-title">
+                                                    <p><span class="date">2016-08-26&nbsp;10:21:30&nbsp; &nbsp;订单号: </span><span class="dingdan">19888410938</span></p>
+                                                  </h3>
+                                              </div>
+                                              <div class="panel-body">
+                                                    <!-- 订单信息 -->
+                                                     <div class="order">
+                                                           <div class="col-md-1">
+                                                             <img src="../../../Desktop/duokan%202/image/dssd.jpg" alt="" style="width:65px;">
+                                                           </div>
+
+                                                           <div class="col-md-3">
+                                                              <span style="font-size:16px; font-weight:bold;">岛上书店</span><br>
+                                                              <span>【美】加布瑞埃拉·泽文</span>
+                                                              <p style="margin-top:20px; color:gray;">￥9.99</p>
+                                                           </div>
+
+                                                           <div class="col-md-2"></div>
+
+                                                           <div class="col-md-1">
+                                                               <span>x1</span>
+                                                           </div>
+
+                                                           <div class="col-md-2">退/换货</div>
+
+                                                           <div class="col-md-2" style="text-align:center;">
+                                                              <p style="border-bottom:1px solid #dbdbdb;">总额：9.99</p>
+                                                              <p>在线支付</p>
+                                                           </div>
+
+                                                           <div class="col-md-1">
+                                                             <span class="glyphicon glyphicon-trash"></span>
+                                                           </div>
+                                                     </div>
+                                              </div>
+                                          </div>
+
+                                            <!-- 订单三 -->
+                                          <div class="panel panel-default">
+                                              <div class="panel-heading">
+                                                  <h3 class="panel-title">
+                                                    <p><span class="date">2016-08-02 &nbsp;16:51:30&nbsp; &nbsp;订单号: </span><span class="dingdan">19852107698</span></p>
+                                                  </h3>
+                                              </div>
+                                          <div class="panel-body">
+                                                <!-- 订单信息 -->
+                                                <!-- 第一个物品 -->
+                                                 <div class="order">
+                                                       <div class="col-md-1">
+                                                         <img src="../../../Desktop/duokan%202/image/gmmt.jpg" alt="" style="width:65px;">
+                                                       </div>
+
+                                                       <div class="col-md-3">
+                                                          <span style="font-size:16px; font-weight:bold;">乖，摸摸头</span><br>
+                                                          <span>大冰</span>
+                                                          <p style="margin-top:20px; color:gray;">￥4.99</p>
+                                                       </div>
+
+                                                       <div class="col-md-2"></div>
+
+                                                       <div class="col-md-1">
+                                                           <span>x1</span>
+                                                       </div>
+
+                                                       <div class="col-md-2">退/换货</div>
+
+                                                       <div class="col-md-2" style="text-align:center;">
+                                                          <p style="border-bottom:1px solid #dbdbdb;">总额：14.98</p>
+                                                          <p>在线支付</p>
+                                                       </div>
+
+                                                       <div class="col-md-1">
+                                                         <span class="glyphicon glyphicon-trash"></span>
+                                                       </div>
+                                                 </div>
+                                          </div>
+                                          <!-- 第二个物品 -->
+                                           <!-- 运用一个列表组:注意要给定一个高 -->
+                                           <ul class="list-group" style="height:200px;">
+                                             <li class="list-group-item">
+                                                   <div class="col-md-1">
+                                                             <img src="../../../Desktop/duokan%202/image/menu5.jpg" alt="" style="width:65px;">
+                                                           </div>
+
+                                                           <div class="col-md-3">
+                                                              <span style="font-size:16px; font-weight:bold;">彷徨</span><br>
+                                                              <span>鲁迅</span>
+                                                              <p style="margin-top:20px; color:gray;">￥9.99</p>
+                                                           </div>
+
+                                                           <div class="col-md-2"></div>
+
+                                                           <div class="col-md-1">
+                                                               <span>x1</span>
+                                                           </div>
+                                              </li>
+                                           </ul>
+                                    </div>
+
+                                         <!-- 页码指示器 -->
+                                    <div class="order-page-number">
+                                           <button class="btn btn-default">确定</button>
+                                           <span class="page-txt">到第<input style="width:40px; height:35px; line-height:35px; text-align:center;"type="text" value="1">页</span>
+                                           <span class="page-txt">共35页</span>
+                                           <button class="btn btn-default">下一页&nbsp;&gt;</button>
+                                           <span class="page-txt">......</span>
+                                           <button class="btn btn-default">7</button>
+                                           <button class="btn btn-default">6</button>
+                                           <button class="btn btn-default">5</button>
+                                           <button class="btn btn-default">4</button>
+                                           <button class="btn btn-default">3</button>
+                                           <button class="btn btn-default">2</button>
+                                           <span class="page-txt">1</span>
+                                           <button class="btn btn-default disabled ">&lt;&nbsp;上一页</button>
+                                    </div>
+                      </div>
+            </div>
+      </div>
+
+</body>
+ <script type="text/javascript">
+     // 导航栏按钮切换
+     $('.person-content .nav a').click(function(){
+         $(this).parent().addClass("act");
+         $(this).parent().siblings().removeClass("act");
+     });
+
+ </script>
+</html>
