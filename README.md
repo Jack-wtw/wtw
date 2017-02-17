@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/Jack-wtw/wtw/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Jack-wtw/wtw/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!-- saved from url=(0116)http://i.zhaopin.com/Home/ResumePreview?resumeNumber=JM843571076R90250000000&resumeId=254246123&version=1&language=1 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>简历预览</title><meta name="robots" content="nofollow"><link rel="stylesheet" type="text/css" href="./简历预览_files/reset.min.css" media="all"><link rel="stylesheet" type="text/css" href="./简历预览_files/resume_preview.css" media="all"></head><body><div class="resumeBody"><div style="height:32px;padding-left:20px;color:#fd7222;font-size:14px;"><p style="float:left;line-height:28px">使用简历置顶服务，简历被查看次数至少可提高<span style="font-size:16px">50</span>
+              次！
+            </p><a target="_blank" class="setTopBtn" style="display: block;float:right;width:114px;height:28px;line-height:28px;border-radius: 14px;background: #fdb12a;color: #fff;font-size: 12px;text-align: center;" href="http://i.zhaopin.com/Order/OrderManager/UnPay?pointId=&amp;serviceId=&amp;extid=JM843571076R90250000000&amp;VersionNum=1&amp;resumeName=">置顶简历</a></div><div class="summary"><img width="70" height="90" align="right" class="headerImg" alt="吴统文" src="./简历预览_files/D7F2108B14F64FCF8F2346011AC534E8.jpg"><h1>吴统文</h1>男<span class="ver-line">|</span>未婚<span class="ver-line">|</span>1994年9月生<span class="ver-line">|</span>
+            户口：青海<span class="ver-line">|</span>
+              现居住于:北京<br>1年工作经验
+            <span class="ver-line">|</span>团员<p>18513058264</p><p>
+              E-mail：<a href="mailto:jackwtw@aliyun.com">jackwtw@aliyun.com</a></p></div><dl class="details"><dt><h5>求职意向</h5></dt><dd><ul><li><strong>工作性质：</strong>全职</li><li><strong>期望职业：</strong>WEB前端开发、</li><li><strong>期望行业：</strong>互联网/电子商务、计算机软件、IT服务(系统/数据/维护)</li><li><strong>工作地区：</strong>北京</li><li><strong>期望月薪：</strong>面议</li><li><strong>目前状况：</strong>我目前处于离职状态，可立即上岗</li></ul></dd><dt><h5>专业技能</h5></dt><dd><p style="width:574px; overflow:hidden;word-break: break-all; word-wrap:break-word;"> 1、熟练掌握HTML/CSS/等前端技术，熟知W3C标准的代码。<br> 2、熟练使用H5的语义化标签与CSS3的新特性，能够实现动画效果以及移动端的样式布局。<br> 3、熟练JavaScript语言，熟知面向对象编程思想，能够使用JS处理各大主流浏览器的兼容问题，熟悉前端各种性能优化手段&nbsp;&nbsp;<br> 4、熟练jQuery前端框架的使用，并能够实现多种页面功能，自己也会封装一些前端框架。<br> 5、熟练Bootstrap框架技术，能实现页面的响应式布局；并能结合AngularJS,jQuery完成单页面应用.<br> 6、熟悉Ajax的异步请求操作，局部刷新技术，实现前后端的交互任务。<br> 7、熟悉前端框架AngularJS，了解MVC、模块化、自动化双向数据绑定、依赖注入等等。<br> 8、熟悉Gulp、git、svn等代码管理工具，熟悉打包前端模块的工具webpack。<br> 9、熟悉node.js，熟悉一些常用的API。<br> 10、了解PHP服务器端技术、MYSQL数据库以及HTTP 协议，能够实现前后端的交互。<br>11、了解移动web开发及移动webApp.</p></dd><dt><h5>工作经历</h5></dt><dd><div class="work-experience"><p>2016/10 -- 2017/01</p><h6>北京科码先锋软件技术有限公司<span class="ver-line">|</span>web前端工程师</h6><p><span>
+                          行业类别： 互联网/电子商务</span><span><span class="ver-line">|</span>职位月薪：保密</span></p><p><strong>工作描述：</strong><br>1.根据UI设计图制作HTML+CSS静态页面<br>2.通过跟UI沟通制作页面的JS特效<br>3.跟后台人员配合进行交互<br>4.修改测试人员提供的相关BUG以及兼容问题<br>5.利用bootstrap制作了响应式的页面<br></p></div><div class="work-experience"><p>2016/03 -- 2016/10</p><h6>河南金东科技有限公司<span class="ver-line">|</span>web前端工程师</h6><p><span>
+                          行业类别： 互联网/电子商务</span><span><span class="ver-line">|</span>职位月薪:保密</span></p><p><strong>工作描述：</strong><br>1.负责web前端和移动端页面的架构设计和开发工作;<br>2.跟进HTML5前端的新技术发展，编写设计开发及实现文档;<br>3.根据产品需求，分析并给出最优的页面前端结构解决方案以及与后台交互整体架构解决方案;<br>4. 负责优化移动产品的质量、性能、用户体验;<br>5.按照业务功能需求，编写js和css代码，协助后端工程师完成代码镶嵌和调试;</p></div></dd><dt><h5>项目经验</h5></dt><dd><div class="project-experience"><p>2016/10 -- 2017/01</p><h6>CyberShopO2O商城系统</h6><div><p><strong>责任描述：</strong><br>主要负责官网首页与关于我们这两个页面的开发与维护。</p><p><strong>项目简介：</strong><br>主要运用了H5的语义化标签，使页面的结构层次更加明显，使用CSS3的动画效果,让页面变得更加具有活力，给用户展现更好的视觉效果，还有响应式布局Bootstrap​​&nbsp;&nbsp; 其次运用了Ajax的局部刷新获取数据，AnjularJS的MVC模型，实现前后端的交互​​ 工作，定期优化代码，实现网站的性能优化。</p></div><div class="project-experience"><p>2016/07 -- 2016/10</p><h6>巧买网(WebApp)</h6><div><p><strong>责任描述：</strong><br>此项目为团队项目，本人主要负责手机端页面布局及效果,登陆注册实现<br>这是一款代理海淘全球正品美妆webApp,主要以美妆，零食，香水为主</p><p><strong>项目简介：</strong><br>主要技术：<br>HTML5语义化标签+CSS3技术<br>jQuery和原生javascript技术完成动态效果<br>利用iScroll.js框架来实现页面上下拉刷新加载效果<br>使用插件来实现倒计时效果</p></div><div class="project-experience"><p>2016/05 -- 2016/07</p><h6>寺库网(pc端)</h6><div><p><strong>责任描述：</strong><br>我负责主要的有:登陆注册，全局搜索，购物车模块功能实现以及主页，列表页，详情页，订单页的html+css布局和动态效果实现，列表页的懒加载技术，商品评价的与后台数据交互。</p><p><strong>项目简介：</strong><br>	网站用到的技术涉及：<br>基于div+css页面布局<br>使用正则表达式，注册功能的实现<br>通过通过JavaScript(jQuery框架)实现效果（例如轮播图及回到顶部）<br>利用JavaScript(jQuery框架)实现效果（例如导航下拉菜单及三级菜单实现）<br>通过Ajax调用后台数据显示在页面；<br>cookie的使用应用在登陆注册</p></div></div></div></div></dd><dt><h5>教育经历</h5></dt><dd><div class="education-background"><p>2012/09 -- 2016/07</p><h6>河南师范大学<span class="ver-line">|</span></span>计算机与信息工程学院<span class="ver-line">|网络工程<span class="ver-line">|</span>本科<span class="ver-line">|</span>统招</h6></div></dd><dt><h5>证书</h5></dt><dd><div class="certificates"><p>2015/12</p><h6>大学英语四级</h6><p></p></div></dd><dd><div class="certificates"><p>2015/04</p><h6>全国计算机等级二级</h6><p></p></div></dd><dt><h5>语言能力</h5></dt><dd><div class="language-skill">英语<span>
+                            ：读写能力一般<span class="ver-line">|</span> 听说能力一般</span></div></dd><dt><h5>自我评价</h5></dt><dd><p>1、自学能力强，有探索精神，抗压能力强；拥有良好的代码习惯，结构清晰，命名规范，<br>&nbsp;&nbsp; 逻辑性强。<br>2、有较强的分析问题和解决问题的能力，善于学习新事物，善于沟通和表达，有良好的<br>&nbsp;&nbsp; 团队合作意识。<br>3、有一年web前端开发经验，能适应出差加班。<br><br><br></p></dd><dt><h5>兴趣爱好</h5></dt><dd><p>篮球 LOL&nbsp;&nbsp;旅游</p></dd></dl><input id="neturlparam" type="hidden" value="AppId=1&amp;Id=684357107&amp;Timestamp=1484213910&amp;Callback=&amp;signature=641D05E1B4E0E1C67FF644DA23C753BF"></div></body></html>
