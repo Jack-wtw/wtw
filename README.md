@@ -1,5 +1,4 @@
 
-
 <html><head><title>我的简历</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="robots" content="nofollow" /><link rel="stylesheet" type="text/css" href="http://img00.zhaopin.cn/2012/css/reset.min.css" media="all" /><link rel="stylesheet" type="text/css" href="http://i.zhaopin.com/Content/css/resume_preview.css" media="all" /></head><body><div class="resumeBody"><div class="summary"><img width="70" height="90" align="right" class="headerImg" alt="吴统文" src="http://mypics.zhaopin.com/pic/2017/1/12/D7F2108B14F64FCF8F2346011AC534E8.jpg" /><h1>吴统文</h1>男<span class="ver-line">|</span>未婚<span class="ver-line">|</span>1994年9月生<span class="ver-line">|</span>
             户口：青海<span class="ver-line">|</span>
               现居住于:北京<br />2年工作经验
